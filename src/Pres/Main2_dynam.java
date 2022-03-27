@@ -4,11 +4,10 @@ import Dao.IDao;
 import Metier.IMetier;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.lang.reflect.Method;
 import java.util.Scanner;
 
-public class Main2
+public class Main2_dynam
  {
     public static void main(String[] args) throws Exception
     {

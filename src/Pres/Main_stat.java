@@ -1,9 +1,8 @@
 package Pres;
-import Dao.IDaoImpl;
 import Metier.IMetierImpl;
 import extension1.IDaoImpl2;
 
-public class Main
+public class Main_stat
 {
     public static void main(String[] args)
     {
