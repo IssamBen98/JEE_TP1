@@ -33,7 +33,7 @@ public class Main2_dynam
             IMetier objMetier = (IMetier) cmetier.newInstance();
 
         /* On applique dynamiquenent la methode SetDao */
-            Method methode = cmetier.getMethod("SetDao",IDao.class);
+            Method methode = cmetier.getMethod("setDao",IDao.class);
 
         /* On attribue la methode à l'objet objMetier en
            inserant l'objet objDao come parametre
